@@ -1,0 +1,255 @@
+
+ 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  display: inline;
+  padding: 20px;
+  
+  
+}
+header {
+  background-color: white;
+  
+}
+
+
+
+body {
+  background-color:blanchedalmond;
+  font-family: 'PT Serif', serif; 
+
+ 
+
+}
+
+  
+.ul {
+  color: white;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+  
+  
+
+
+}
+.logo {
+  margin: 10px;
+  
+  
+}
+    
+.boxlogo {
+  width: 10%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+
+}
+
+
+.boxlogo img {
+  margin: 10%;
+  width: 150%;
+}
+nav {
+  
+  background-image: linear-gradient(to right, rgb(248,144,0), white);
+  text-align: center;
+  font-weight: bold;
+  padding: 2.5%;
+  border: 2px solid red; 
+  color: black;
+  
+  
+}
+h1 {
+  color: rgb(224,8,17);
+  padding: auto;
+  text-align: center;
+  
+    
+}
+
+table{
+  
+  background-image: linear-gradient(to left, blanchedalmond, rgb(236, 184, 110));
+  padding: 0%;
+  margin-top: 1px;
+  margin-left: 0px;
+}
+
+th {
+  border: 1px solid brown;
+  
+}
+
+td {
+  border: 1px solid brown;
+  
+}
+
+p{
+    font-weight: 500;
+    font-style: oblique; 
+}
+
+
+/*body {
+  background-color: burlywood;
+  font-family: 'PT Serif', serif; 
+  
+}*/
+
+.Sugerencias{
+
+    text-align: center;
+    font-weight: 500;
+    font-style: oblique; 
+}
+.Mensaje{
+    color: rgb(224,8,17);
+    text-align: center;
+    font-weight: 500;
+    font-style: oblique; 
+    
+}
+
+.logoEscuela{
+  display: inline;
+  width: 10%;
+
+}
+.h1Importante{
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.h2{
+  color: rgb(224,8,17);
+  padding: auto;
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(248,144,0), white);
+  
+  
+  
+
+}
+.grilla{
+  display: grid;
+  margin-left: 10%;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 100% 100%;  
+ 
+  
+  
+
+}
+.Item1{
+  width: 118%;
+  height: 100%;
+  background-image: linear-gradient(to left,  rgb(236, 184, 110), blanchedalmond );
+  align-self: flex-end;
+  margin-left: 75px;
+  text-align: center;
+  
+  
+
+  
+  
+}
+
+.Item2{
+  width: 125%;
+  height: 100%;
+  background-image: linear-gradient(to left,  blanchedalmond,  rgb(236, 184, 110));
+  align-self: flex-end;
+  margin-left: 150px;
+  text-align: center;
+  
+  
+  
+}
+
+
+
+
+
+.Image1{
+
+  width: 75%;
+  height: 50%;
+  margin-top: 75px;
+  margin-left: 25px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+
+.TextoNoticias{
+  text-align: center;
+  
+}
+
+.NivelPrimario{
+
+  text-align: center;
+  
+ 
+}
+
+.Mision{
+  color: rgb(224,8,17);
+  padding: auto;
+  text-align: center;
+  background-image: linear-gradient(to left, rgb(248,144,0), white);
+
+}
+
+.VIDEOCONOCENOS{
+  
+  
+  justify-content: center;
+  margin-left: 30%;
+  
+  
+  
+
+}
+
+
+
+.parrafoConocenos{
+  
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+  background-image: linear-gradient(to left,  rgb(248,144,0), blanchedalmond );
+  
+  
+}
+
+.Mapa{
+  margin-left: 375px;
+}

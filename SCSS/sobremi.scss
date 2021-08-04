@@ -1,0 +1,72 @@
+@import "variables.scss";
+
+h1{
+    color: rgb(224,8,17)
+
+}
+p{
+    background-image: linear-gradient(to right, pink, white);
+    text-align: center;
+    color: black;
+    
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    background-image: linear-gradient(to right, rgb(248,144,0), white);
+    text-align: center;
+    font-weight: bold;
+    padding: 3%;
+    border: 2px solid red; 
+    color: black;
+    margin: 2%;
+    
+    
+
+}
+.h1importante{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}  
+
+.logoEscuela{
+    display: inline;
+    width: 10%;
+    margin-left: 300px;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+li {
+    display: inline;
+    padding: 20px;
+}    
+
+div {
+font-size: 10px * 3;
+}
+
+$wrap: 960px; 
+article[role="main"] {
+  float: left;
+  width: 630px / $wrap * 100%;
+}
+aside[role="complimentary"] {
+  float: left;
+  width: 330px / $wrap * 100%;
+}
+
